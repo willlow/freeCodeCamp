@@ -3,8 +3,12 @@ title: Create Visual Balance Using the text-align Property
 ---
 ## Create Visual Balance Using the text-align Property
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/applied-visual-design/create-visual-balance-using-the-text-align-property/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+One of the ways CSS can align text is using the text-align property.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+<code> text-align: justify;</code>  will cause all lines of text, excluding the last line, to stretch to the left and right edges of the line
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+<code> text-align: center;</code>  centers the text
+
+<code> text-align: right;</code>  aligns the text on the right side
+
+<code> text-align: left;</code>  aligns the text on the left side, this is usually the default
