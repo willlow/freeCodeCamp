@@ -7,7 +7,7 @@ title: Binary Search Trees
 A tree is a data structure composed of nodes that has the following characteristics:
 1. Each tree has a root node (at the top) having some value.
 2. The root node has zero or more child nodes.
-3. Each child node has zero or more child nodes, and so on. This create a subtree in the tree. Every node has it's own subtree made up of his children and their children, etc. This means that every node on its own can be a tree.
+3. Each child node has zero or more child nodes, and so on. This create a subtree in the tree. Every node has its own subtree made up of his children and their children, etc. This means that every node on its own can be a tree.
 
 A binary search tree (BST) adds these two characteristics:
 1. Each node has a maximum of up to two children.
@@ -17,7 +17,7 @@ A binary search tree (BST) adds these two characteristics:
 The BST is built up on the idea of the <a href='https://guide.freecodecamp.org/algorithms/search-algorithms/binary-search' targer='_blank' rel='nofollow'>binary search</a> algorithm, which allows for fast lookup, insertion and removal of nodes. The way that they are set up means that, on average, each comparison allows the operations to skip about half of the tree, so that each lookup, insertion or deletion takes time proportional to the logarithm of the number of items stored in the tree, `O(log n)`. However, some times the worst case can happen, when the tree isn't balanced and the time complexity is `O(n)` for all three of these functions. That is why self-balancing trees (AVL, red-black, etc.) are a lot more effective than the basic BST.
 
 
-**Worst case scenario example:** This can happen when you keep adding nodes that are *always* larger than the node before (it's parent), the same can happen when you always add nodes with values lower than their parents.
+**Worst case scenario example:** This can happen when you keep adding nodes that are *always* larger than the node before (its parent), the same can happen when you always add nodes with values lower than their parents.
 
 ### Basic operations on a BST
 - Create: creates an empty tree.
@@ -203,7 +203,7 @@ Since trees are recursively defined, it's very common to write routines that ope
 So for instance, if we want to calculate the height of a tree, that is the height of a root node, We can go ahead and recursively do that, going through the tree. So we can say:
 
 * For instance, if we have a nil tree, then its height is a 0.
-* Otherwise, We're 1 plus the maximum of the left child tree and the right child tree.
+* Otherwise, we're 1 plus the maximum of the left child tree and the right child tree.
 * So if we look at a leaf for example, that height would be 1 because the height of the left child is nil, is 0, and the height of the nil right child is also 0. So the max of that is 0, then 1 plus 0.
 #### Height(tree) algorithm
 ```
